@@ -344,7 +344,7 @@ export default function App() {
                         animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}
                         className="flex flex-col items-center"
                     >
-                        <AnimatedTitle text="ENCRYPTED TRUTH" isVisible={isRevealed} />
+                        <AnimatedTitle text="THE ENCRYPTED TRUTH" isVisible={isRevealed} />
                         <motion.p
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 0.8, y: 0, transition: { delay: 2.5, duration: 1.5 } }}
